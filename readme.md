@@ -77,8 +77,6 @@ Source: [The Essential Meta Tags for Social Media (CSS-Tricks)](https://css-tric
 
 ## SEO Tags
 
-.cshtml:
-
 Essential properties (HTML):
 
 ```HTML
@@ -97,10 +95,10 @@ Essential properties (CSHTML):
 <title>@ViewBag.PageTitle</title>
 ```
 
-.cs:
+Essential properties (C#):
 
 ```
-ViewBag.MetaDescription = "";
-ViewBag.MetaKeywords = "";
-ViewBag.PageTitle = ""
+ViewBag.MetaDescription = "Meta description";
+ViewBag.MetaKeywords = "Meta keywords";
+ViewBag.PageTitle = "Page title";
 ```
