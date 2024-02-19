@@ -62,7 +62,7 @@ Social Analytics:
 <meta name="twitter:site" content="@website-username">
 ```
 
-Source: [The Essential Meta Tags for Social Media (CSS-Tricks)](https://css-tricks.com/essential-meta-tags-social-media/)
+More information about Social Media Cards: [The Essential Meta Tags for Social Media (CSS-Tricks)](https://css-tricks.com/essential-meta-tags-social-media/)
 
 
 
