@@ -34,7 +34,7 @@ Essential properties (CSHTML):
 <meta property="og:url" content="@ViewBag.OgUrl">
 <meta property="og:description" content="@ViewBag.OgDescription">
 <meta property="og:site_name" content="@ViewBag.OgSiteName">
-<meta property="og:type" content="@ViewBag.Type" />
+<meta property="og:type" content="@ViewBag.OgType" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="@ViewBag.TwitterImageAlt">
 ```
@@ -47,13 +47,9 @@ ViewBag.OgImage = "";
 ViewBag.OgUrl = "";
 ViewBag.OgDescription = "";
 ViewBag.OgSiteName = "";
-ViewBag.Type = "";
+ViewBag.OgType = "";
 ViewBag.TwitterImageAlt = "";
 ```
-
-
-
-
 
 Social Analytics:
 
