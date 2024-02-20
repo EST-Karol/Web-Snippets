@@ -9,11 +9,11 @@ Essential properties (HTML):
 
 ``` HTML
 <meta property="og:title" content="European Travel Destinations">
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
 <meta property="og:url" content="http://euro-travel-example.com/index.htm">
 <meta property="og:description" content="Offering tour packages for individuals or groups.">
 <meta property="og:site_name" content="European Travel, Inc.">
+<meta property="og:type" content="article" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="Alt text for image">
 ```
@@ -30,11 +30,11 @@ Essential properties (CSHTML):
 
 ```HTML
 <meta property="og:title" content="@ViewBag.OgTitle">
-<meta property="og:type" content="@ViewBag.Type" />
 <meta property="og:image" content="@ViewBag.OgImage">
 <meta property="og:url" content="@ViewBag.OgUrl">
 <meta property="og:description" content="@ViewBag.OgDescription">
 <meta property="og:site_name" content="@ViewBag.OgSiteName">
+<meta property="og:type" content="@ViewBag.Type" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="@ViewBag.TwitterImageAlt">
 ```
@@ -43,11 +43,11 @@ Essential properties (C#):
 
 ```
 ViewBag.OgTitle = "";
-ViewBag.Type = "";
 ViewBag.OgImage = "";
 ViewBag.OgUrl = "";
 ViewBag.OgDescription = "";
 ViewBag.OgSiteName = "";
+ViewBag.Type = "";
 ViewBag.TwitterImageAlt = "";
 ```
 
