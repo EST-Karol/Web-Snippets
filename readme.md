@@ -1,6 +1,6 @@
 # Web Snippets
 
-Collection of standard helper snippets commonly used across web products.
+Collection of common helper snippets used across web products.
 
 
 ## Social Media Cards
